@@ -1,0 +1,60 @@
+.hero{
+    height: 60vh;
+    background: linear-gradient(180deg, rgb(245, 202, 245), rgb(245, 226, 230) 60%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.hero-left{
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+    padding-left: 180px;
+    gap: 20px;
+    line-height: 1.1;
+}
+
+
+.hero-left h2{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(39, 20, 57);
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero-left p{
+    text-align: center;
+    color: rgb(63, 32, 91);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-left .hero-latest-btn{
+    text-align: center;
+}
+
+.hero-left .hero-latest-btn button{
+    background-color: #c6339a;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #c6339a;
+}
+
+
+.hero-right{
+    margin-right: 80px;
+}
+
+.banner-img{
+    height: 400px;
+    margin-bottom: 40px;
+    object-fit: cover;
+}
