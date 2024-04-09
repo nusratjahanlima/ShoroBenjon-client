@@ -1,60 +1,61 @@
 .hero{
-    height: 60vh;
+    height: 100vh;
     background: linear-gradient(180deg, rgb(245, 202, 245), rgb(245, 226, 230) 60%);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 15px;
-    padding: 15px;
+    overflow: hidden;
 }
 
 .hero-left{
-    width: 600px;
-    height: 300px;
-    padding: 20px;
-    padding-left: 180px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 20px;
+    padding-left: 180px;
     line-height: 1.1;
 }
 
 
 .hero-left h2{
-    text-align: center;
-    margin-top: 50px;
     color: rgb(39, 20, 57);
     font-size: 26px;
     font-weight: 600;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hero-left p{
-    text-align: center;
     color: rgb(63, 32, 91);
-    font-size: 18px;
-    font-weight: 500;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
 }
 
-.hero-left .hero-latest-btn{
-    text-align: center;
+.hero-latest-btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.hero-left .hero-latest-btn button{
+.hero-latest-btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
     background-color: #c6339a;
-    color: white;
-    height: 30px;
-    border-radius: 5px;
     outline: none;
-    border: 1px solid #c6339a;
+    border: #c6339a;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
 }
-
 
 .hero-right{
-    margin-right: 80px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 100px;
 }
 
-.banner-img{
-    height: 400px;
-    margin-bottom: 40px;
-    object-fit: cover;
-}
