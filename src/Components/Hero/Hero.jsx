@@ -1,10 +1,12 @@
 import React from 'react';
 import './Hero.css'
 import banner_image from '../Assets/banner_image.png'
+ 
 
 
 const Hero = () => {
     return (
+        
         <div className='hero'>
             <div className='hero-left'>
                <h2>NEW ARRIVALS ONLY</h2>
