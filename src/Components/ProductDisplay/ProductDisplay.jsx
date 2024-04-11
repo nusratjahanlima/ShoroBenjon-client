@@ -19,7 +19,6 @@ const ProductDisplay = (props) => {
                 </div>
                 <div className="productdisplay-img">
                     <img className='productdisplay-main-img' src={product.image} alt="" />
-
                 </div>
             </div>
             
@@ -31,7 +30,7 @@ const ProductDisplay = (props) => {
                     <img src={star_icon} alt="" />
                     <img src={star_icon} alt="" />
                     <img src={star_dull_icon} alt="" />
-                    <p>{122}</p>
+                    <p>(122)</p>
                 </div>
 
                 <div className="productdisplay-right-prices">
@@ -41,6 +40,8 @@ const ProductDisplay = (props) => {
                     <div className="productdisplay-right-price-new">
                         ${product.new_price}
                     </div>
+                    </div>
+                    
                     <div className="productdisplay-right-description">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum officiis enim porro tenetur facilis nesciunt non neque? Doloremque quas eos ab? Dolorum cumque sapiente ullam.
                     </div>
@@ -59,7 +60,8 @@ const ProductDisplay = (props) => {
                     <p className='productdisplay-right-category'> <span>Tags :</span>Modern, Latest</p>
                 </div>
             </div>
-        </div>
+            
+        
     );
 };
 
