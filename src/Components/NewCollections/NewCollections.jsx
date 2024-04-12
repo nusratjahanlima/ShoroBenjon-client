@@ -5,7 +5,7 @@ import Item from '../Item/Item';
 
 const NewCollections = () => {
     return (
-        <div className='newcollection'>
+        <div className='new-collections'>
             <h1>NEW COLLECTIONS</h1>
 
             <div className="collections">
