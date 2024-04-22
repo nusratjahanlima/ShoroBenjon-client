@@ -2,11 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 100px;
 }
 
-.newcollection h1{
+.new-collections h1{
+    text-align: center;
     color: #171717;
     font-size: 34px;
     font-weight: 600;
@@ -16,7 +15,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
-    gap: 30px;
+    margin-left: 60px;
+    gap: 25px;
 }
 
 

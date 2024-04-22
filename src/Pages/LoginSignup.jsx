@@ -41,7 +41,7 @@ const LoginSignup = () => {
         await fetch('http://localhost:4000/signup',{
             method:'POST',
             headers:{
-                Accept:'application/json',
+                Accept:'application/form-data',
                 'Content-Type':'application/json',
             },
             body: JSON.stringify(formData),

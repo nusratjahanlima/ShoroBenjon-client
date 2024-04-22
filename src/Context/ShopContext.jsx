@@ -1,6 +1,4 @@
 import React, { createContext, useEffect, useState } from "react";
-import all_product from "../Components/Assets/all_product"
-import CartItems from "../Components/CartItems/CartItems";
 
 export const ShopContext = createContext(null);
 
@@ -19,8 +17,8 @@ const ShopContextProvider = (props) => {
     const[cartItems, setCartItems] = useState(getDefaultCart());
     
         useEffect(()=>{
-            fetch('http://localhost:400/allproducts')
-            .then((Response)=>Response.json())
+            fetch('http://localhost:4000/allproducts')
+            .then((response)=>response.json())
             .then((data)=>setAll_Product(data))
 
             if(localStorage.getItem('auth-token')){
@@ -38,7 +36,7 @@ const ShopContextProvider = (props) => {
         },[])
         
         const addToCart = (itemId) => {
-            setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
+            setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}));
             if(localStorage.getItem('auth-token')){
                 fetch('http://localhost:4000/addtocart',{
                     method: 'POST',

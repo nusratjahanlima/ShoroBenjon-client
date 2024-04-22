@@ -1,8 +1,7 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, rgb(245, 202, 245), rgb(245, 226, 230) 60%);
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
     display: flex;
-    overflow: hidden;
 }
 
 .hero-left{
@@ -17,38 +16,48 @@
 
 
 .hero-left h2{
-    color: rgb(39, 20, 57);
+    color: #090909;
     font-size: 26px;
     font-weight: 600;
 }
 
 .hero-left p{
-    color: rgb(63, 32, 91);
-    font-size: 60px;
+    color: #171717;
+    font-size: 80px;
     font-weight: 700;
 }
 
-.hero-latest-btn{
+.hero-hand-icon{
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    gap: 20px;
 }
 
-.hero-latest-btn button{
+.hero-hand-icon img{
+    width: 105px;
+}
+
+.hero-latest-btn-main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    width: 210px;
-    height: 50px;
-    border-radius: 10px;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
     margin-top: 30px;
-    background-color: #c6339a;
-    outline: none;
-    border: #c6339a;
+    background: #ff4141;
     color: white;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 500px;
+}
+
+.hero-latest-btn{
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500px;
+    border: none;
 }
 
 .hero-right{
@@ -57,6 +66,13 @@
     align-items: center;
     justify-content: center; 
     margin-bottom: 100px;
+}
+
+.hero-right img{
+    margin-right: 40px;
+    width: 650px;
+    height: 600px;
+    object-fit: cover;
 }
 
 @media(max-width:1280px){
