@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background-color: #d6c3bd;
+    background-color: black;
 }
 
 .footer-logo{
@@ -17,6 +17,7 @@
     color: #383838;
     font-size: 46px;
     font-weight: 700;
+    color: white;
 }
 
 .footer-link{
@@ -29,7 +30,10 @@
 
 .footer-link li{
     cursor: pointer;
+    color: white;
 }
+
+
 
 .footer-social-icon{
     display: flex;
@@ -50,7 +54,7 @@
     gap: 30px;
     width: 100%;
     margin-bottom: 30px;
-    color: #1a1a1a;
+    color: white;
     font-size: 20px;
 }
 

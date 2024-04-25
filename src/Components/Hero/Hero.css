@@ -1,7 +1,11 @@
 .hero{
+    width: 1400px;
     height: 80vh;
     background: linear-gradient(180deg, #f6e1dd, #e1ffea22 60%);
     display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 20px;
 }
 
 .hero-left{
@@ -42,18 +46,18 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
+    width: 260px;
     height: 70px;
-    border-radius: 75px;
+    border-radius: 60px;
     margin-top: 30px;
-    background: #ff4141;
+    background: rgb(203, 91, 153);
     color: white;
     font-size: 22px;
     font-weight: 500px;
 }
 
 .hero-latest-btn{
-    background: #ff4141;
+    background: rgb(203, 91, 153);
     color: white;
     font-size: 22px;
     font-weight: 500px;
@@ -69,9 +73,8 @@
 }
 
 .hero-right img{
-    margin-right: 40px;
     width: 650px;
-    height: 600px;
+    height: 500px;
     object-fit: cover;
 }
 

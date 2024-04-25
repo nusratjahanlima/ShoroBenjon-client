@@ -1,6 +1,6 @@
 import React, { useContext, useState, useRef } from 'react';
 import './Navbar.css'
-import logo from '../Assets/logo.png'
+import logo from '../Assets/shorobenjon.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
@@ -29,6 +29,8 @@ const Navbar = () => {
             <li onClick={()=>{setMenu("mens")}}><Link style={{ textDecoration: 'none', color: 'white'}} to='/mens'>Men</Link> </li>
             <li onClick={()=>{setMenu("womens")}}><Link style={{ textDecoration: 'none',color: 'white'}} to='/womens'>Women</Link></li>
             <li onClick={()=>{setMenu("kids")}}><Link style={{ textDecoration: 'none',color: 'white'}} to='/kids'>Kid</Link> </li>
+            <li onClick={()=>{setMenu("artCrafts")}}><Link style={{ textDecoration: 'none',color: 'white'}} to='/artCrafts'>Art & Crafts</Link> </li>
+            <li onClick={()=>{setMenu("contact")}}><Link style={{ textDecoration: 'none',color: 'white'}} to='/contact'>Contact us</Link></li>
             </ul>
 
             <div className="nav-login-cart">

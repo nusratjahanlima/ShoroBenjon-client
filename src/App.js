@@ -12,6 +12,8 @@ import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kids_banner from './Components/Assets/banner_kids.png'
 import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
+import Contact from './Components/Contact/Contact';
+import ArtCrafts from './Components/ArtCrafts/ArtCrafts';
 
 
 
@@ -27,6 +29,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
+        <Route path='/artCrafts' element={<ArtCrafts/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         <Route path='/mens' element={<ShopCategory banner={men_banner} category="men"/>}/>
         <Route path='/womens' element={<ShopCategory banner={women_banner} category="women"/>}/>
         <Route path='/kids' element={<ShopCategory banner={kids_banner} category="kid"/>}/>
