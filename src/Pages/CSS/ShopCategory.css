@@ -4,9 +4,16 @@
     width: 82%;
 }
 
+.shop-category h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
 .shopcategory-indexSort{
     display: flex;
-    margin: 0px 170px;
+    margin: 30px 170px;
     justify-content: space-between;
     align-items: center;
 }
@@ -37,8 +44,8 @@
     width: 233px;
     height: 69px;
     border-radius: 75px;
-    background: #ededed;
-    color: #787878;
+    background: rgb(203, 91, 153);
+    color: #ededed;
     font-size: 18px;
     font-weight: 500;
 }
