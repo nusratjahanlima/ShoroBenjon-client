@@ -1,0 +1,52 @@
+.staytuned{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 170px;
+    background-color: rgb(197, 192, 192);
+}
+
+.staytumed-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.staytuned-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.input-first{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.input-first input{
+    height: 27px;
+    border: none;
+}
+
+.staytuned-checkbox{
+    display: flex;
+    gap: 5px;
+}
+
+
+.staytuned-checkbox label{
+    color: rgb(65, 63, 63);
+}
+
+.st-btn button{
+    width: 100px;
+    height: 35px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}

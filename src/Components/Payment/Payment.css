@@ -1,0 +1,37 @@
+.payment-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.payment-heading img{
+    height: 80px;
+}
+
+.payment-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.payment-main input{
+    width: 480px;
+    height: 27px;
+    outline-color: rgb(203, 91, 153);
+}
+
+.payment-btn button{
+    width: 120px;
+    height: 30px;
+    margin: 30px 700px;
+    background-color: rgb(203, 91, 153);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}

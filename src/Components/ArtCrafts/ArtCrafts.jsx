@@ -8,6 +8,8 @@ const ArtCrafts = () => {
                 <li>Home decore</li>
                 <li>Jwellery</li>
                 <li>Lippon art</li>
+                <li>Flower crafts</li>
+                <li>Painting</li>
                 <li>Clothes</li>
             </ul>
         </div>

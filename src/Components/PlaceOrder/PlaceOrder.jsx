@@ -1,10 +1,13 @@
 import React, { useContext } from 'react';
 import './PlaceOrder.css'
 import { ShopContext } from '../../Context/ShopContext'
+import {useNavigate } from 'react-router-dom';
 
 const PlaceOrder = () => {
 
     const {getTotalCartAmount} = useContext(ShopContext)
+
+    const navigate = useNavigate();
 
     return (
         <form className='place-order'>
@@ -49,7 +52,7 @@ const PlaceOrder = () => {
                             <h3>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</h3>
                         </div>
                     </div>
-                    <button>PROCEED TO PAYMENT</button>
+                    <button onClick={()=>navigate('/payment')}>PROCEED TO PAYMENT</button>
                 </div>
            </div>
         </form>

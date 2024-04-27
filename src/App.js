@@ -14,6 +14,7 @@ import kids_banner from './Components/Assets/banner_kids.png'
 import PlaceOrder from './Components/PlaceOrder/PlaceOrder';
 import Contact from './Components/Contact/Contact';
 import ArtCrafts from './Components/ArtCrafts/ArtCrafts';
+import Payment from './Components/Payment/Payment';
 
 
 
@@ -39,6 +40,7 @@ function App() {
         </Route>
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<PlaceOrder/>}/>
+        <Route path='/payment' element={<Payment/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
       <Footer/>
