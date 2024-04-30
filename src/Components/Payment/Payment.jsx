@@ -12,10 +12,22 @@ const Payment = () => {
             </div>
 
             <div className="payment-main">
-                <input type="text" placeholder='User name'/>
-                <input type="text" placeholder='Your email' />
-                <input type="text" placeholder='Your phone no'/>
-                <input type="text" placeholder='Transaction id' />
+                <div>
+                <label htmlFor="">User name</label>
+                <input type="text" />
+                </div>
+                <div>
+                <label htmlFor="">Your email</label>
+                <input type="text"  />
+                </div>
+                <div>
+                <label htmlFor="">Your phone no</label>
+                <input type="text" />
+                </div>
+                <div>
+                <label htmlFor="">Transaction id</label>
+                <input type="password"  />
+                </div>
             </div>
 
             <div className="payment-btn">

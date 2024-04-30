@@ -19,6 +19,12 @@
     gap: 20px;
 }
 
+.payment-main label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .payment-main input{
     width: 480px;
     height: 27px;
