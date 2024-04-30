@@ -11,10 +11,10 @@
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    font-weight: 600;
-    width: 171px;
+    font-weight: 500;
     height: 70px;
-    border: 1px solid #d0d0d0;
+    gap: 200px;
+    color: rgb(201, 45, 157);
 }
 
 .descriptionbox-nav-box .fade{
@@ -26,9 +26,11 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    border: 1px solid #D0D0D0;
     padding: 48PX;
     padding-bottom: 70PX;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(204, 237, 220);
 }
 
 

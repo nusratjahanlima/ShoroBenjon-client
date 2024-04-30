@@ -1,4 +1,4 @@
-.artcraft{
+/* .artcraft{
     margin: 15px;
     padding: 15px;
 }
@@ -11,4 +11,61 @@
 
 .artcraft-menu li{
     list-style: none;
+} */
+
+.explore-artcraft{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.explore-artcraft h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+
+.explore-artcraft-text{
+    margin: 0 auto;
+    max-width: 40%;
+    color: #808080;
+}
+
+.explore-artcraft-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    margin: 20px 10px;
+    overflow-x: scroll;
+}
+
+.explore-artcraft-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-artcraft-list-item img{
+    width: 7.5vw;
+    min-width: 80px;
+    height: 110px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+
+.explore-artcraft-list-item p{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw,16px);
+    cursor: pointer;
+}
+
+.explore-artcraft-list-item .active{
+    border: 2px solid tomato;
 }

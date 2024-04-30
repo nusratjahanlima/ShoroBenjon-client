@@ -8,7 +8,9 @@ import Review from '../Components/Review/Review';
 import Staywithus from '../Components/Staywithus/Staywithus';
 
 
+
 const Shop = () => {
+    
     return (
         <div>
             <Hero/>
